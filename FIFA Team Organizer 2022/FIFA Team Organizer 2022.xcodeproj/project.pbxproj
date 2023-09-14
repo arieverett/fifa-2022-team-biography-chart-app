@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1B0DA129270B210073DB3D /* FIFA_Team_Organizer_2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B0DA029270B210073DB3D /* FIFA_Team_Organizer_2022App.swift */; };
+		4C1B0DA329270B210073DB3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B0DA229270B210073DB3D /* ContentView.swift */; };
+		4C1B0DA529270B210073DB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B0DA429270B210073DB3D /* Assets.xcassets */; };
+		4C1B0DA829270B210073DB3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B0DA729270B210073DB3D /* Preview Assets.xcassets */; };
+		4C1B0DB229270B210073DB3D /* FIFA_Team_Organizer_2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B0DB129270B210073DB3D /* FIFA_Team_Organizer_2022Tests.swift */; };
+		4C1B0DBC29270B210073DB3D /* FIFA_Team_Organizer_2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B0DBB29270B210073DB3D /* FIFA_Team_Organizer_2022UITests.swift */; };
+		4C1B0DBE29270B210073DB3D /* FIFA_Team_Organizer_2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B0DBD29270B210073DB3D /* FIFA_Team_Organizer_2022UITestsLaunchTests.swift */; };
+		4C1B0DCB29270EB70073DB3D /* Teams List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B0DCA29270EB70073DB3D /* Teams List.swift */; };
+		4C1B0DCD292712960073DB3D /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B0DCC292712960073DB3D /* TeamsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1B0DAE29270B210073DB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1B0D9529270B210073DB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1B0D9C29270B210073DB3D;
+			remoteInfo = "FIFA Team Organizer 2022";
+		};
+		4C1B0DB829270B210073DB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1B0D9529270B210073DB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1B0D9C29270B210073DB3D;
+			remoteInfo = "FIFA Team Organizer 2022";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C1B0D9D29270B210073DB3D /* FIFA Team Organizer 2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIFA Team Organizer 2022.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1B0DA029270B210073DB3D /* FIFA_Team_Organizer_2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFA_Team_Organizer_2022App.swift; sourceTree = "<group>"; };
+		4C1B0DA229270B210073DB3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C1B0DA429270B210073DB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C1B0DA729270B210073DB3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C1B0DAD29270B210073DB3D /* FIFA Team Organizer 2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FIFA Team Organizer 2022Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1B0DB129270B210073DB3D /* FIFA_Team_Organizer_2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFA_Team_Organizer_2022Tests.swift; sourceTree = "<group>"; };
+		4C1B0DB729270B210073DB3D /* FIFA Team Organizer 2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FIFA Team Organizer 2022UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1B0DBB29270B210073DB3D /* FIFA_Team_Organizer_2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFA_Team_Organizer_2022UITests.swift; sourceTree = "<group>"; };
+		4C1B0DBD29270B210073DB3D /* FIFA_Team_Organizer_2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFA_Team_Organizer_2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C1B0DCA29270EB70073DB3D /* Teams List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Teams List.swift"; sourceTree = "<group>"; };
+		4C1B0DCC292712960073DB3D /* TeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1B0D9A29270B210073DB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1B0DAA29270B210073DB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1B0DB429270B210073DB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1B0D9429270B210073DB3D = {
+			isa = PBXGroup;
+			children = (
+				4C1B0DCC292712960073DB3D /* TeamsView.swift */,
+				4C1B0DCA29270EB70073DB3D /* Teams List.swift */,
+				4C1B0D9F29270B210073DB3D /* FIFA Team Organizer 2022 */,
+				4C1B0DB029270B210073DB3D /* FIFA Team Organizer 2022Tests */,
+				4C1B0DBA29270B210073DB3D /* FIFA Team Organizer 2022UITests */,
+				4C1B0D9E29270B210073DB3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1B0D9E29270B210073DB3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1B0D9D29270B210073DB3D /* FIFA Team Organizer 2022.app */,
+				4C1B0DAD29270B210073DB3D /* FIFA Team Organizer 2022Tests.xctest */,
+				4C1B0DB729270B210073DB3D /* FIFA Team Organizer 2022UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1B0D9F29270B210073DB3D /* FIFA Team Organizer 2022 */ = {
+			isa = PBXGroup;
+			children = (
+				4C1B0DA029270B210073DB3D /* FIFA_Team_Organizer_2022App.swift */,
+				4C1B0DA229270B210073DB3D /* ContentView.swift */,
+				4C1B0DA429270B210073DB3D /* Assets.xcassets */,
+				4C1B0DA629270B210073DB3D /* Preview Content */,
+			);
+			path = "FIFA Team Organizer 2022";
+			sourceTree = "<group>";
+		};
+		4C1B0DA629270B210073DB3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C1B0DA729270B210073DB3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C1B0DB029270B210073DB3D /* FIFA Team Organizer 2022Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1B0DB129270B210073DB3D /* FIFA_Team_Organizer_2022Tests.swift */,
+			);
+			path = "FIFA Team Organizer 2022Tests";
+			sourceTree = "<group>";
+		};
+		4C1B0DBA29270B210073DB3D /* FIFA Team Organizer 2022UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1B0DBB29270B210073DB3D /* FIFA_Team_Organizer_2022UITests.swift */,
+				4C1B0DBD29270B210073DB3D /* FIFA_Team_Organizer_2022UITestsLaunchTests.swift */,
+			);
+			path = "FIFA Team Organizer 2022UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1B0D9C29270B210073DB3D /* FIFA Team Organizer 2022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1B0DC129270B210073DB3D /* Build configuration list for PBXNativeTarget "FIFA Team Organizer 2022" */;
+			buildPhases = (
+				4C1B0D9929270B210073DB3D /* Sources */,
+				4C1B0D9A29270B210073DB3D /* Frameworks */,
+				4C1B0D9B29270B210073DB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FIFA Team Organizer 2022";
+			productName = "FIFA Team Organizer 2022";
+			productReference = 4C1B0D9D29270B210073DB3D /* FIFA Team Organizer 2022.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C1B0DAC29270B210073DB3D /* FIFA Team Organizer 2022Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1B0DC429270B210073DB3D /* Build configuration list for PBXNativeTarget "FIFA Team Organizer 2022Tests" */;
+			buildPhases = (
+				4C1B0DA929270B210073DB3D /* Sources */,
+				4C1B0DAA29270B210073DB3D /* Frameworks */,
+				4C1B0DAB29270B210073DB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1B0DAF29270B210073DB3D /* PBXTargetDependency */,
+			);
+			name = "FIFA Team Organizer 2022Tests";
+			productName = "FIFA Team Organizer 2022Tests";
+			productReference = 4C1B0DAD29270B210073DB3D /* FIFA Team Organizer 2022Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C1B0DB629270B210073DB3D /* FIFA Team Organizer 2022UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1B0DC729270B210073DB3D /* Build configuration list for PBXNativeTarget "FIFA Team Organizer 2022UITests" */;
+			buildPhases = (
+				4C1B0DB329270B210073DB3D /* Sources */,
+				4C1B0DB429270B210073DB3D /* Frameworks */,
+				4C1B0DB529270B210073DB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1B0DB929270B210073DB3D /* PBXTargetDependency */,
+			);
+			name = "FIFA Team Organizer 2022UITests";
+			productName = "FIFA Team Organizer 2022UITests";
+			productReference = 4C1B0DB729270B210073DB3D /* FIFA Team Organizer 2022UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1B0D9529270B210073DB3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4C1B0D9C29270B210073DB3D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					4C1B0DAC29270B210073DB3D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 4C1B0D9C29270B210073DB3D;
+					};
+					4C1B0DB629270B210073DB3D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 4C1B0D9C29270B210073DB3D;
+					};
+				};
+			};
+			buildConfigurationList = 4C1B0D9829270B210073DB3D /* Build configuration list for PBXProject "FIFA Team Organizer 2022" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C1B0D9429270B210073DB3D;
+			productRefGroup = 4C1B0D9E29270B210073DB3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1B0D9C29270B210073DB3D /* FIFA Team Organizer 2022 */,
+				4C1B0DAC29270B210073DB3D /* FIFA Team Organizer 2022Tests */,
+				4C1B0DB629270B210073DB3D /* FIFA Team Organizer 2022UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1B0D9B29270B210073DB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1B0DA829270B210073DB3D /* Preview Assets.xcassets in Resources */,
+				4C1B0DA529270B210073DB3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1B0DAB29270B210073DB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1B0DB529270B210073DB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1B0D9929270B210073DB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1B0DA329270B210073DB3D /* ContentView.swift in Sources */,
+				4C1B0DA129270B210073DB3D /* FIFA_Team_Organizer_2022App.swift in Sources */,
+				4C1B0DCB29270EB70073DB3D /* Teams List.swift in Sources */,
+				4C1B0DCD292712960073DB3D /* TeamsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1B0DA929270B210073DB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1B0DB229270B210073DB3D /* FIFA_Team_Organizer_2022Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1B0DB329270B210073DB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1B0DBC29270B210073DB3D /* FIFA_Team_Organizer_2022UITests.swift in Sources */,
+				4C1B0DBE29270B210073DB3D /* FIFA_Team_Organizer_2022UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C1B0DAF29270B210073DB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1B0D9C29270B210073DB3D /* FIFA Team Organizer 2022 */;
+			targetProxy = 4C1B0DAE29270B210073DB3D /* PBXContainerItemProxy */;
+		};
+		4C1B0DB929270B210073DB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1B0D9C29270B210073DB3D /* FIFA Team Organizer 2022 */;
+			targetProxy = 4C1B0DB829270B210073DB3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C1B0DBF29270B210073DB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C1B0DC029270B210073DB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C1B0DC229270B210073DB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FIFA Team Organizer 2022/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari.FIFA-Team-Organizer-2022";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C1B0DC329270B210073DB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FIFA Team Organizer 2022/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari.FIFA-Team-Organizer-2022";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C1B0DC529270B210073DB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari.FIFA-Team-Organizer-2022Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIFA Team Organizer 2022.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FIFA Team Organizer 2022";
+			};
+			name = Debug;
+		};
+		4C1B0DC629270B210073DB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari.FIFA-Team-Organizer-2022Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIFA Team Organizer 2022.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FIFA Team Organizer 2022";
+			};
+			name = Release;
+		};
+		4C1B0DC829270B210073DB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari.FIFA-Team-Organizer-2022UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FIFA Team Organizer 2022";
+			};
+			name = Debug;
+		};
+		4C1B0DC929270B210073DB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari.FIFA-Team-Organizer-2022UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FIFA Team Organizer 2022";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1B0D9829270B210073DB3D /* Build configuration list for PBXProject "FIFA Team Organizer 2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1B0DBF29270B210073DB3D /* Debug */,
+				4C1B0DC029270B210073DB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1B0DC129270B210073DB3D /* Build configuration list for PBXNativeTarget "FIFA Team Organizer 2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1B0DC229270B210073DB3D /* Debug */,
+				4C1B0DC329270B210073DB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1B0DC429270B210073DB3D /* Build configuration list for PBXNativeTarget "FIFA Team Organizer 2022Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1B0DC529270B210073DB3D /* Debug */,
+				4C1B0DC629270B210073DB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1B0DC729270B210073DB3D /* Build configuration list for PBXNativeTarget "FIFA Team Organizer 2022UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1B0DC829270B210073DB3D /* Debug */,
+				4C1B0DC929270B210073DB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C1B0D9529270B210073DB3D /* Project object */;
+}
